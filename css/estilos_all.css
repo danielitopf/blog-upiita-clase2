@@ -28,6 +28,7 @@ footer {
 .frase {
 	text-align: center;
 	margin: .5em;
+	padding-top: .5em;
 }
 
 .frase p {

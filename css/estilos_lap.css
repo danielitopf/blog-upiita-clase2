@@ -2,7 +2,16 @@
 	background: url("../imagenes/fondo_presentacion.jpg");
 	height: 1000px;
 	background-repeat: no-repeat;
+	/**/
+	background-size:cover;
 	line-height: 500px;
+	/*sombra en texto*/
+	
+	text-shadow: 0px 0px 3px gray;
+	-moz-text-shadow: 0px 0px 3px gray;
+	-webkit-text-shadow: 0px 0px 3px gray;
+	-o-text-shadow: 0px 0px 3px gray;
+	-ms-text-shadow: 0px 0px 3px gray;
 }
 
 .frase{
@@ -21,4 +30,50 @@
 
 #suscribirse label {
 	width: 40%;
+}
+
+.frase img:hover{
+	transform: scale(1.5);
+	-moz-transform: scale()1.5; /*Firefox*/
+	-webkit-transform: scale;/*Chrome*/
+	-o-transform: scale(1.5);
+	-ms-transform:scale(1.5);
+}
+
+/*TRANSICION */
+.frase img{
+	transition: all 05s ease;
+}
+
+#redes-sociales{
+	position: fixed;
+	bottom: 1.5em;
+	right: 0.5em;
+	background-color: orange;
+	opacity: 0.7;
+	padding: 0.5em
+	/*esquinas redondas*/
+	border-radius: 5px 10px 15px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	/*sombra*/
+	box-shadow:0px 0px 5px 5px blue;
+	-moz-box-shadow:0px 0px 5px 5px blue;
+	-webkit-box-shadow:0px 0px 5px 5px blue;
+	-o-box-shadow:0px 0px 5px 5px blue;
+	-ms-box-shadow:0px 0px 5px 5px blue;
+	/*top, right, left bottom*/
+}
+
+header{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	
+}
+
+#divVacio{
+	height: 110px;
 }
