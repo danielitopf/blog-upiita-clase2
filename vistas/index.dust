@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <!-- contenido de la página -->
+        <div id="divVacio">
+        	
+        </div>
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        Inicio
+                    </li>
+                    <li>
+                        Productos
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="bienvenida">
+            Programar con corazón
+            <!-- seccion de bienvenida -->
+        </section>
+        <section id="frases">
+            <!-- seccion de frases -->
+            <div class="frase">
+                <img src="imagenes/chela.png"/>
+                <p>
+                    Imaginar
+                </p>
+            </div>
+            <div class="frase">
+                <img src="imagenes/lambda.png" />
+                <p>
+                    Pensar
+                </p>
+            </div>
+            <div class="frase">
+                <img src="imagenes/python.png" />
+                <p>
+                    Crear
+                </p>
+            </div>
+        </section>
+        <section>
+            <!-- seccion video -->
+            <video controls="controls" poster="imagenes/logo-chrome.jpg">
+                <source src="videos/chrome_japan.webm" type="video/webm"/>
+                <source src="videos/chrome_japan.mp4" type="video/mp4"/>
+                <source src="videos/chrome_japan.ogv" type="video/ogg"/>
+            </video>
+        </section>
+        <footer>
+            <div id="derechos">
+                <p>
+                    Mi página, derechos reservados
+                </p>
+                <div id="redes-sociales">
+                    <img src="imagenes/facebook.png" />
+                    <img src="imagenes/twitter.png"/>
+                    <img src="imagenes/googleplus.png"/>
+                    <img src="imagenes/youtube.png"/>
+                </div>
+            </div>
+            <div id="suscribirse">
+                <form action="/suscribirse" method="post">
+	                <label for="email">Suscríbete:</label>
+	                <input id="email" type="text" name="email"/>
+	                <input value="enviar" type="submit">
+	            </form>
+            </div>
+        </footer>
+    </body>
+</html>

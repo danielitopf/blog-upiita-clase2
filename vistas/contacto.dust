@@ -1,0 +1,72 @@
+<!doctype html>
+<!-- esto es un comentario -->
+<html>
+    <head>
+        <meta charset= "UTF-8"/>
+        <title>Mi página</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+        <link href="imagenes/favicon.ico" rel="shortcut icon"/>
+        <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_all.css" rel="stylesheet" media="screen"/>
+        <link href="css/estilos_lap.css" rel="stylesheet" media="screen and (min-width:600px)"/>
+        <link href="css/estilos_moviles.css" rel="stylesheet" media="screen and (max-width:600px)"/>
+    </head>
+    <body>
+        <!-- contenido de la página -->
+        <div id="divVacio">
+        	
+        </div>
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        Inicio
+                    </li>
+                    <li>
+                        Productos
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                    <li>
+                        Acerca
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <footer>
+            <div id="derechos">
+                <p>
+                    Mi página, derechos reservados
+                </p>
+                <div id="redes-sociales">
+                    <img src="imagenes/facebook.png" />
+                    <img src="imagenes/twitter.png"/>
+                    <img src="imagenes/googleplus.png"/>
+                    <img src="imagenes/youtube.png"/>
+                </div>
+            </div>
+            <div id="contac">
+                <form action="/contactar" method="post">
+		            <label for="nombre">Nombre:</label>
+		            <input id="nombre" type="text" name="nombre"/><br>
+		            
+		            <label for="email">Email:</label>
+		            <input id="email" type="text" name="email"/><br>
+		            
+		            <label for="website">Website:</label>
+		            <input id="website" type="text" name="website"/><br>
+		            
+		            <label for="edad">Edad:</label>
+		            <input id="edad" type="text" name="edad"/><br>
+		            
+		            <label for="comentario">Comentario:</label>
+		            <input id="comentario" type="textarea" name="comentario"/><br>
+		            
+		            <input value="Enviar" type="submit">
+		        </form>
+            </div>
+        </footer>
+    </body>
+</html>
